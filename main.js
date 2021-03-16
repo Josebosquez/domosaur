@@ -23,3 +23,19 @@ function RedBorder (){
     firstdino.style.border = "1px solid red"
 }
 firstdino.addEventListener('click', RedBorder);
+
+function trans (){
+    const feathers = document.querySelector("#feathers")
+    feathers.style.opacity = "50%"
+}
+
+feathers.addEventListener('click', trans)
+
+const buttonSwitch = document.querySelector("#toggle");
+
+function rowColor(){
+    const rows = document.querySelector("#row");
+    rows.style.backgroundColor = "green";
+}
+
+buttonSwitch.addEventListener('click', rowColor);
