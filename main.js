@@ -39,3 +39,15 @@ function rowColor(){
 }
 
 buttonSwitch.addEventListener('click', rowColor);
+
+
+
+
+
+const club = document.querySelector('#biggify');
+
+function big (){
+    club.style.width = "200px";
+}
+
+club.addEventListener("mouseover", big);
